@@ -2,12 +2,10 @@ body {
   font-family: Arial, sans-serif;
   padding: 20px;
   background-color: #3d5e3d;
-  /* pale green */
 }
 
 h1 {
   color: #80c595;
-  /* orangey yellow */
 }
 
 form {
@@ -16,9 +14,7 @@ form {
 
 label {
   font-family: 'Arial Black', sans-serif;
-  /* a thicker font */
   font-weight: bold;
-  /* makes the font thicker */
 }
 
 input,
@@ -26,11 +22,8 @@ button {
   margin-top: 10px;
   display: block;
   background-color: #07073b;
-  /* blue */
   color: #ffffffaf;
-  /* white */
   border: none;
-  /* removes the default button border */
 }
 
 #result {
