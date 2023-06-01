@@ -1,6 +1,13 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
+  background-color: #3d5e3d;
+  /* pale green */
+}
+
+h1 {
+  color: #d3921a;
+  /* orangey yellow */
 }
 
 form {
