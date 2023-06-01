@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-  color: #d3921a;
+  color: #80c595;
   /* orangey yellow */
 }
 
@@ -14,8 +14,40 @@ form {
   margin-bottom: 20px;
 }
 
+label {
+  font-family: 'Arial Black', sans-serif;
+  /* a thicker font */
+  font-weight: bold;
+  /* makes the font thicker */
+}
+
 input,
 button {
   margin-top: 10px;
   display: block;
+  background-color: #07073b;
+  /* blue */
+  color: #ffffffaf;
+  /* white */
+  border: none;
+  /* removes the default button border */
+}
+
+#result {
+  font-size: 24px;
+  font-weight: bold;
+  color: #c6e482;
+  animation: fadeinout 3s infinite;
+}
+
+@keyframes fadeinout {
+
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
 }
